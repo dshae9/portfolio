@@ -15,78 +15,122 @@
 </head>
 
 <body>
-    <section id="intro">
-        <h1>Hi, my name is <b>Demonshae Glover</b></h1>
-        <p>I am a front end focused web developer based in Detroit, Michigan. <br> Currently, I spend my time freelancing web development services for artists and small businesses with <a href="www.webdroid.online">Webdroid</a>, teaching front end web development
-            to students with <a href="journi.org">Journi</a>, and <a href="instagram.com/bombbaeabroad">traveling the world</a>. <br>
-
-        </p>
-    </section>
-
-    <section id="about">
-        <img src="assets/html.png">
-        <img src="assets/css.png">
-        <img src="assets/js.png">
-        <img class="node" src="assets/nodejs.png">
-    </section>
-
-    <section id="portfolio">
+    <div class="container">
         <div class="row">
-            <div class="column">
-                <div class="card">..</div>
+
+            <h1>Hi, my name is <b>Demonshae Glover</b></h1>
+            <p>I am a front end focused web developer based in Detroit, Michigan. <br> Currently, I spend my time remotely freelancing web development services for artists, small businesses and tech start-ups, teaching front end web development to students
+                with <a href="journi.org">Journi</a>, and <a href="instagram.com/bombbaeabroad">traveling the world</a>. <br>
+            </p>
+            <img src="">
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="pic col-md-3"> <img class="logo" src="assets/html.png"> </div>
+            <div class="pic col-md-3"> <img class="logo" src="assets/css.png"> </div>
+            <div class="pic col-md-3"> <img class="logo" src="assets/js.png"> </div>
+            <div class="pic col-md-3"> <img class="node logo" src="assets/nodejs.png"> </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="card col-md-3" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
-            <div class="column">
-                <div class="card">..</div>
+
+            <div class="card col-md-3" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
-            <div class="column">
-                <div class="card">..</div>
+
+            <div class="card col-md-3" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
-            <div class="column">
-                <div class="card">..</div>
+
+            <div class="card col-md-3" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <!-- <div class="card col-md-3" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div> -->
+        </div>
+    </div>
+
+
+    <div class="container ">
+        <div class="row">
+            <link href="contact-form.css" rel="stylesheet">
+            <div class="fcf-body">
+
+                <div id="fcf-form">
+                    <h3 class="fcf-h3">Get in touch with me:</h3>
+
+                    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+
+                        <div class="fcf-form-group">
+                            <label for="Name" class="fcf-label">Your name</label>
+                            <div class="fcf-input-group">
+                                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="fcf-form-group">
+                            <label for="Email" class="fcf-label">Your email address</label>
+                            <div class="fcf-input-group">
+                                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="fcf-form-group">
+                            <label for="Message" class="fcf-label">Your message</label>
+                            <div class="fcf-input-group">
+                                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="fcf-form-group">
+                            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+                        </div>
+
+
+
+                    </form>
+                </div>
+
             </div>
         </div>
-
-    </section>
-
-
-    <link href="contact-form.css" rel="stylesheet">
-    <div class="fcf-body">
-
-        <div id="fcf-form">
-            <h3 class="fcf-h3">Get in touch with me:</h3>
-
-            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-
-                <div class="fcf-form-group">
-                    <label for="Name" class="fcf-label">Your name</label>
-                    <div class="fcf-input-group">
-                        <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-                    </div>
-                </div>
-
-                <div class="fcf-form-group">
-                    <label for="Email" class="fcf-label">Your email address</label>
-                    <div class="fcf-input-group">
-                        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-                    </div>
-                </div>
-
-                <div class="fcf-form-group">
-                    <label for="Message" class="fcf-label">Your message</label>
-                    <div class="fcf-input-group">
-                        <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-                    </div>
-                </div>
-
-                <div class="fcf-form-group">
-                    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
-                </div>
-
-
-
-            </form>
-        </div>
-
     </div>
 
 
